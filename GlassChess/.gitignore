@@ -1,0 +1,7 @@
+/out/
+/bin/
+/.settings/
+*.class
+preview.png
+.DS_Store
+Thumbs.db
