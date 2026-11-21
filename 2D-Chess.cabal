@@ -1,0 +1,13 @@
+cabal-version:      3.0
+name:               TwoD-Chess-Haskell
+version:            0.1.0.0
+synopsis:           2D Chess game written in Haskell
+build-type:         Simple
+
+executable chess-hs
+    main-is:          Main.hs
+    hs-source-dirs:   src
+    default-language: Haskell2010
+    build-depends:    base >= 4.14 && < 5,
+                      containers >= 0.6,
+                      split >= 0.2
